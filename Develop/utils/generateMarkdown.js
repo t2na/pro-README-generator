@@ -28,7 +28,22 @@ ${data.installation}
 ${data.usage}
 ## License
 ${data.license}
+## Contributions
+${data.contributions}
+## Testing
+${data.testing}
+## Questions
+
+Email: ${data.email}
+
+GitHub: github.com/${data.github}
 `;
 }
 
 module.exports = generateMarkdown;
+
+// dynamically fill out the text and/or color
+
+// in questions, provide a list of choices - MIT, GNU, Apache - then when they select one, you're going to put it in a conditional statement if license = MIT return this badge, if something else, return something else, put it all in conditional statement
+
+// could write ![license]("https://img.shields.io/badge/License-MIT-green") and then in those parenthesis ()

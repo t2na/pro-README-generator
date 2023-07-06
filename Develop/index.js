@@ -9,52 +9,48 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your document?',
+        message: 'What is the title of your project?',
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Please write a description of your document',
+        message: 'Please write a description of your project',
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What is the title of your document?',
+        message: 'How do you install your project?',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'What is the title of your document?',
+        message: 'How do you use your project?',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'What is the title of your document?',
+        message: 'Which license would you like for your project?',
+        choices: ['MIT', 'GNU', 'Apache'],
     },
     {
         type: 'input',
         name: 'contributions',
-        message: 'What is the title of your document?',
+        message: 'Who has made contributions to your project?',
     },
     {
         type: 'input',
-        name: 'tests',
-        message: 'What is the title of your document?',
-    },
-    {
-        type: 'input',
-        name: 'contactMe',
-        message: 'What is the title of your document?',
+        name: 'testing',
+        message: 'How do you perform tests on your project?',
     },
     {
         type: 'input',
         name: 'email',
-        message: 'What is the title of your document?',
+        message: 'What is your email?',
     },
     {
         type: 'input',
         name: 'github',
-        message: 'What is the title of your document?',
+        message: 'What is your github username?',
     },
 ];
 
