@@ -22,7 +22,7 @@ This project was created with helpful collaboration from bootcamp group 3, as we
 
 ## Video Example
 
-https://drive.google.com/file/d/1HQFPTsTWYIABO1quzc46Odp3h7xaj1cj/view
+https://drive.google.com/file/d/19-PjVxqqUqvyStTkLQYun6ui0_uh10gT/view
 
 ## License
 
